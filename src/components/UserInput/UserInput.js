@@ -1,6 +1,5 @@
+import React, { useState } from 'react';
 
-
-const UserInput = () => {
   return (
     <form className="form">
       <div className="input-group">
