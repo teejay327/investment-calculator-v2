@@ -7,7 +7,7 @@ const initialUserInput = {
   "duration": 10
 };
 
-const UserInput = () => {
+const UserInput = (props) => {
   const [userInput, setUserInput] = useState(initialUserInput);
 
   const inputChangeHandler = (input,value) => {
@@ -21,6 +21,7 @@ const UserInput = () => {
 
   const submitHandler = event => {
     event.preventDefault();
+    props.onCalculate(userInput);
   };
 
   const resetHandler = event => {
