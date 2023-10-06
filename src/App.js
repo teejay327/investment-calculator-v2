@@ -34,6 +34,7 @@ if (userInput) {
     <div>
       <Header />
       <UserInput onCalculate ={ calculateHandler }/>
+      { !userInput && <p> No investment calculated yet</p>};
       <ResultsTable />
     </div>
   );
