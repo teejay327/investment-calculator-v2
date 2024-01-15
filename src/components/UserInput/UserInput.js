@@ -4,7 +4,7 @@ const initialUserInput = {
   "current-savings": 12000,
   "yearly-contribution": 1200,
   "expected-return": 7,
-  "duration": 7
+  "duration": 8
 };
 
 const UserInput = (props) => {
