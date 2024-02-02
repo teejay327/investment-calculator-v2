@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 const initialUserInput = {
   "current-savings": 12000,
   "yearly-contribution": 1200,
-  "expected-return": 7,
-  "duration": 8
+  "expected-return": 9,
+  "duration": 7
 };
 
 const UserInput = (props) => {
